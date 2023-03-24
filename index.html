@@ -39,9 +39,6 @@
 			};
 			Plotly.newPlot('plot', data, layout);
 		}
-		function clearText() {
-  			document.getElementById("inputText").value = "";
-		}
 	</script>
 </head>
 <body>
@@ -50,7 +47,7 @@
 	<textarea id="inputText"></textarea>
 	<br />
 	<button onclick="analyzeText()">Analyze Text</button>
-	<button onclick="clearText()">Clear Text</button>
+	<button onclick="document.getElementById('inputText').value = '';">Clear Text</button>
 	<p id="result"></p>
 	<div id="plot"></div>
 </body>
