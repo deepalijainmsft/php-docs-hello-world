@@ -33,6 +33,7 @@ h1 {
     background-color: transparent;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    margin-left: 50%;
   }
   
   .toolbar button:hover {
@@ -56,6 +57,7 @@ h1 {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     margin-top: 2rem;
+    margin-left: 50%;
   }
   
   /* Button hover and click effects */
