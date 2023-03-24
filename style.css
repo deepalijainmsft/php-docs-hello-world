@@ -1,44 +1,8 @@
-/* Center align text */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  /* Style the button */
-  button {
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  /* Button hover and click effects */
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  button:active {
-    transform: scale(0.95);
-  }
-  
-  button:active:after {
-    content: url('click-sound.mp3');
-    display: none;
-  }
-  
-  /* Style the heading */
-  h1 {
+/* Style the heading */
+h1 {
     font-size: 3rem;
     text-align: center;
-  }
-  
-  /* User-friendly background */
-  body {
-    background-color: #f5f5f5;
+    margin-top: 2rem;
   }
   
   /* Style the text box */
@@ -51,6 +15,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    margin-top: 2rem;
   }
   
   /* Toolbar for text box */
@@ -80,5 +45,35 @@ body {
   
   .toolbar button i {
     font-size: 1.2rem;
+  }
+  
+  /* Style the button */
+  button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 2rem;
+  }
+  
+  /* Button hover and click effects */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  button:active:after {
+    content: url('click-sound.mp3');
+    display: none;
+  }
+  
+  /* User-friendly background */
+  body {
+    background-color: #f5f5f5;
   }
   
